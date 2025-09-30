@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans text-xl flex flex-wrap justify-center">
+    <div id="calci" class="border-sky-500 flex flex-wrap flex-col h-auto w-auto mt-[4rem] border-[0.2rem] rounded-[0.5rem]">
+        <div id="display" class="border-green-500 flex flex-wrap border-[0.15rem] rounded-[0.5rem] p-4 m-2">display</div>
+
+        <div id="number0" class="flex flex-wrap justify-center">
+            <div id="clear" class="text-yellow-300 border-yellow-300 px-[1.7rem] py-2 border-[0.15rem] w-[auto] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">Clear</div>
+            <div id="delete" class="text-red-500 border-red-500 px-[1.7rem] py-2 border-[0.15rem] w-[auto] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">Delete</div>
+        </div>
+
+        <div id="number1" class="flex flex-wrap justify-center">
+            <div id="one" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">1</div>
+            <div id="two" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">2</div>
+            <div id="three" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">3</div>
+            <div id="plus" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">+</div>
+        </div>
+
+        <div id="number2" class="flex flex-wrap justify-center">
+            <div id="four" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">4</div>
+            <div id="five" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">5</div>
+            <div id="six" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">6</div>
+            <div id="minus" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">-</div>
+        </div>
+
+        <div id="number3" class="flex flex-wrap justify-center">
+            <div id="seven" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">7</div>
+            <div id="eight" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">8</div>
+            <div id="nine" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">9</div>
+            <div id="multiply" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">*</div>
+        </div>
+
+        <div id="number4" class="flex flex-wrap justify-center">
+            <div id="dot" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">.</div>
+            <div id="zero" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">0</div>
+            <div id="divide" class="border-[0.15rem] rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">/</div>
+            <div id="equals" class="text-green-500 border-[0.15rem] border-green-500 rounded-[0.5rem] p-4 m-2 hover:text-sky-400 hover:border-sky-400 hover:scale-[0.97] hover:duration-300 cursor-pointer">=</div>
+        </div>
+    </div>
+
+    <script src="calculator.js">
+    </script>
+</body>
+</html>
